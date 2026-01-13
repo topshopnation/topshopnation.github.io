@@ -13,12 +13,14 @@ Professional retirement planning tool with Monte Carlo simulation, tax optimizat
 - ✅ HSA tracking and cost basis calculations
 - ✅ Spouse support with separate accounts
 - ✅ 1 saved scenario
+- ⚠️ Clean, minimal ads (small banner + occasional interstitial via Google AdMob)
 - ❌ No charts (Total Assets Over Time, Asset Allocation)
 - ❌ No year-by-year table
 - ❌ No Monte Carlo simulation
 - ❌ No PDF export
 
-### PRO Tier ($4.99 one-time or $1.99/month)
+### PRO Tier
+- ✅ **Ad-free experience**
 - ✅ Monte Carlo simulation (1,000 runs)
 - ✅ Total Assets Over Time chart
 - ✅ Asset Allocation chart
