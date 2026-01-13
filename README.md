@@ -19,7 +19,7 @@ All your financial data stays on your device. We never collect, transmit, or sto
 
 ## Support
 
-Need help? Visit our [Support Page](https://topshopnation.com/nestplan/support.html) or email support@topshopnation.com
+Need help? Visit our [Support Page](https://topshopnation.com/nestplan/support.html) for contact options.
 
 ## Download
 
