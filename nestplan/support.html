@@ -1,157 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support - NestPlan</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { 
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #f8f9fa;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    h1 {
-      color: #1a1a2e;
-      margin-bottom: 10px;
-      font-size: 2rem;
-    }
-    .subtitle {
-      color: #666;
-      margin-bottom: 30px;
-      font-size: 0.95rem;
-    }
-    h2 {
-      color: #1a1a2e;
-      margin-top: 30px;
-      margin-bottom: 15px;
-      font-size: 1.3rem;
-    }
-    p, li {
-      margin-bottom: 15px;
-      color: #444;
-    }
-    ul {
-      margin-left: 25px;
-      margin-bottom: 20px;
-    }
-    .contact-box {
-      background: #e0f2fe;
-      padding: 25px;
-      border-radius: 12px;
-      margin: 30px 0;
-      text-align: center;
-    }
-    .contact-box a {
-      display: inline-block;
-      background: #0ea5e9;
-      color: white;
-      padding: 12px 30px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      margin-top: 10px;
-    }
-    .contact-box a:hover {
-      background: #0284c7;
-    }
-    .faq-item {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .faq-item h3 {
-      color: #1a1a2e;
-      margin-bottom: 10px;
-      font-size: 1.1rem;
-    }
-    .footer {
-      margin-top: 50px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-      color: #666;
-      font-size: 0.9rem;
-    }
-    a { color: #0ea5e9; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NestPlan Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .contact-box h2 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        .contact-box p {
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+        .email-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .email-button:hover {
+            transform: translateY(-2px);
+        }
+        .faq-section {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .faq-section h2 {
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #1a1a1a;
+        }
+        .faq-item {
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .faq-question {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+        .faq-answer {
+            color: #555;
+            line-height: 1.8;
+        }
+        .faq-answer ul {
+            margin: 15px 0 15px 25px;
+        }
+        .faq-answer li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #dee2e6;
+            color: #666;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>NestPlan Support</h1>
-    <p class="subtitle">We're here to help you plan for retirement</p>
+    <div class="container">
+        <header>
+            <h1>NestPlan Support</h1>
+            <p class="subtitle">We're here to help you plan for retirement</p>
+        </header>
 
-    <div class="contact-box">
-      <h2 style="margin-top: 0;">Need Help?</h2>
-      <p>Contact our support team and we'll get back to you within 24-48 hours.</p>
-      <a href="mailto:support@topshopnation.com">Email Support</a>
+        <div class="contact-box">
+            <h2>Need Help?</h2>
+            <p>Contact our support team and we'll get back to you within 24-48 hours.</p>
+            <a href="mailto:support@topshopnation.com" class="email-button">Email Support</a>
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I restore my PRO purchase on a new device?</div>
+                <div class="faq-answer">
+                    Open NestPlan, go to the PRO section, and tap "Restore Purchases". This will restore any previous purchases linked to your Apple ID.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Where is my data stored?</div>
+                <div class="faq-answer">
+                    All your data (account balances, scenarios, settings) is stored locally on your device only. We do not have access to your financial information. This also means if you delete the app, your data will be lost – consider exporting your scenarios first (PRO feature).
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How accurate are the projections?</div>
+                <div class="faq-answer">
+                    NestPlan uses standard financial calculations and current tax brackets. However, projections are estimates based on assumptions that may not match reality. Market returns vary, tax laws change, and personal circumstances differ. Always consult a financial advisor for personalized advice.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What is Monte Carlo simulation?</div>
+                <div class="faq-answer">
+                    Monte Carlo simulation runs 1,000 different scenarios with randomized market returns to show the range of possible outcomes for your retirement plan. It helps you understand the probability of your savings lasting through retirement, accounting for market volatility.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What's included in PRO?</div>
+                <div class="faq-answer">
+                    PRO features include:
+                    <ul>
+                        <li><strong>Ad-free experience</strong> – No banner ads or interstitials</li>
+                        <li>Monte Carlo simulation (1,000 runs)</li>
+                        <li>Total Assets Over Time chart</li>
+                        <li>Asset Allocation chart</li>
+                        <li>Year-by-Year projection table</li>
+                        <li>PDF export with full reports</li>
+                        <li>JSON import/export for backups</li>
+                        <li>Up to 12 saved scenarios</li>
+                    </ul>
+                    <p style="margin-top: 15px;">Pricing is available in the app. Subscriptions are managed through your Apple ID.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What about ads in the FREE version?</div>
+                <div class="faq-answer">
+                    The FREE version includes clean, minimal advertising to support development:
+                    <ul>
+                        <li>Small banner ad at the bottom of the screen</li>
+                        <li>Occasional interstitial ad (not overwhelming)</li>
+                        <li>Ads are family-friendly via Google AdMob</li>
+                    </ul>
+                    Upgrade to PRO for a completely ad-free experience.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I use NestPlan without creating an account?</div>
+                <div class="faq-answer">
+                    Yes! NestPlan does not require account creation or login. All your data stays on your device, ensuring maximum privacy.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I cancel my PRO subscription?</div>
+                <div class="faq-answer">
+                    PRO subscriptions are managed through your Apple ID. To cancel:
+                    <ol style="margin-left: 25px;">
+                        <li>Open Settings on your iOS device</li>
+                        <li>Tap your name at the top</li>
+                        <li>Tap "Subscriptions"</li>
+                        <li>Find NestPlan and tap "Cancel Subscription"</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 CoreForge LLC. All rights reserved.</p>
+            <p style="margin-top: 15px;">
+                <a href="privacy.html">Privacy Policy</a> · 
+                <a href="terms.html">Terms of Service</a> · 
+                <a href="index.html">Back to Calculator</a>
+            </p>
+        </footer>
     </div>
-
-    <h2>Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-      <h3>How do I restore my PRO purchase on a new device?</h3>
-      <p>Open NestPlan, go to the PRO section, and tap "Restore Purchases". This will restore any previous purchases linked to your Apple ID.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Where is my data stored?</h3>
-      <p>All your data (account balances, scenarios, settings) is stored locally on your device only. We do not have access to your financial information. This also means if you delete the app, your data will be lost - consider exporting your scenarios first (PRO feature).</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How accurate are the projections?</h3>
-      <p>NestPlan uses standard financial calculations and current tax brackets. However, projections are estimates based on assumptions that may not match reality. Market returns vary, tax laws change, and personal circumstances differ. Always consult a financial advisor for personalized advice.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What is Monte Carlo simulation?</h3>
-      <p>Monte Carlo simulation runs 1,000 different scenarios with randomized market returns to show the range of possible outcomes for your retirement plan. It helps you understand the probability of your savings lasting through retirement, accounting for market volatility.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What's included in PRO?</h3>
-      <p>PRO features include:</p>
-      <ul style="margin-top: 10px;">
-        <li>Monte Carlo simulation (1,000 runs)</li>
-        <li>PDF report export</li>
-        <li>JSON import/export for backup</li>
-        <li>Save up to 12 scenarios (vs 1 in free)</li>
-      </ul>
-    </div>
-
-    <div class="faq-item">
-      <h3>How do I request a refund?</h3>
-      <p>All purchases are processed by Apple. To request a refund, visit <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a> or contact Apple Support.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Can I transfer my data to another device?</h3>
-      <p>PRO users can export their scenarios as a JSON file and import it on another device. Free users are limited to 1 scenario which cannot be exported.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Is my financial information secure?</h3>
-      <p>Yes. NestPlan stores all data locally on your device. We never transmit, collect, or have access to your financial information. See our <a href="/privacy.html">Privacy Policy</a> for details.</p>
-    </div>
-
-    <h2>App Information</h2>
-    <ul>
-      <li><a href="/privacy.html">Privacy Policy</a></li>
-      <li><a href="/terms.html">Terms of Service</a></li>
-    </ul>
-
-    <div class="footer">
-      <p>© 2026 CoreForge LLC. All rights reserved.</p>
-      <p>NestPlan is a product of CoreForge LLC.</p>
-    </div>
-  </div>
 </body>
 </html>
