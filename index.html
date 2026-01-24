@@ -1,81 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoreForge Apps</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { 
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-    .container {
-      text-align: center;
-      max-width: 600px;
-    }
-    h1 {
-      color: #f59e0b;
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    p {
-      color: #94a3b8;
-      margin-bottom: 40px;
-    }
-    .apps {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    .app {
-      background: rgba(30, 41, 59, 0.8);
-      border: 1px solid rgba(248, 250, 252, 0.1);
-      border-radius: 12px;
-      padding: 20px;
-      text-decoration: none;
-      transition: transform 0.2s, border-color 0.2s;
-    }
-    .app:hover {
-      transform: translateY(-2px);
-      border-color: #f59e0b;
-    }
-    .app h2 {
-      color: #e2e8f0;
-      font-size: 1.3rem;
-      margin-bottom: 5px;
-    }
-    .app span {
-      color: #64748b;
-      font-size: 0.9rem;
-    }
-    .footer {
-      margin-top: 50px;
-      color: #475569;
-      font-size: 0.85rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreForge Apps</title>
+    <meta name="description" content="Quality iOS apps for everyday life. QR Pro Scanner and NestPlan Retirement Calculator.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #aaa;
+            font-size: 1.1rem;
+        }
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .app-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 30px;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.08);
+        }
+        .app-card h2 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .app-card .emoji {
+            font-size: 1.8rem;
+        }
+        .app-card p {
+            color: #aaa;
+            font-size: 0.95rem;
+        }
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .app-card {
+                padding: 25px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>CoreForge Apps</h1>
-    <p>Quality apps for everyday life</p>
-    
-    <div class="apps">
-      <a href="/nestplan/" class="app">
-        <h2>🪺 NestPlan</h2>
-        <span>Retirement Calculator with Monte Carlo Simulation</span>
-      </a>
+    <div class="container">
+        <header>
+            <h1>CoreForge Apps</h1>
+            <p>Quality apps for everyday life</p>
+        </header>
+
+        <div class="apps-grid">
+            <a href="/nestplan/" class="app-card">
+                <h2><span class="emoji">🪺</span> NestPlan</h2>
+                <p>Retirement Calculator with Monte Carlo Simulation</p>
+            </a>
+
+            <a href="/qrpro/" class="app-card">
+                <h2><span class="emoji">📱</span> QR Pro Scanner</h2>
+                <p>Scan & Create QR Codes Fast</p>
+            </a>
+        </div>
+
+        <footer>
+            <p>© 2026 CoreForge LLC</p>
+        </footer>
     </div>
-    
-    <div class="footer">
-      <p>© 2026 CoreForge LLC</p>
-    </div>
-  </div>
 </body>
 </html>
