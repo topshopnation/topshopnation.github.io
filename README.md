@@ -1,29 +1,30 @@
-# NestPlan
+# CoreForge Apps
 
+Quality iOS apps for everyday life.
+
+**Live Site:** https://topshopnation.com
+
+## Apps
+
+### NestPlan
 Professional retirement planning tool with Monte Carlo simulation and tax optimization.
 
 **Live Site:** https://topshopnation.com/nestplan/
 
-## About
+### HarborCast
+Marine weather and boating conditions at a glance. Wind, tides, safety ratings, and privacy-first design.
 
-NestPlan helps you plan for retirement with advanced features like:
-- Monte Carlo simulation
-- Tax optimization
-- HSA tracking
-- Spouse planning
-- Scenario comparison
+**Live Site:** https://topshopnation.com/harborcast/
 
 ## Privacy
 
-All your financial data stays on your device. We never collect, transmit, or store your personal information. See our [Privacy Policy](https://topshopnation.com/nestplan/privacy.html) for details.
+All apps are built with privacy as a priority. Your data stays on your device. See individual app privacy policies for details.
 
 ## Support
 
-Need help? Visit our [Support Page](https://topshopnation.com/nestplan/support.html) for contact options.
-
-## Download
-
-Coming soon to the iOS App Store.
+Need help? Visit our support pages:
+- [NestPlan Support](https://topshopnation.com/nestplan/support.html)
+- [HarborCast Support](https://topshopnation.com/harborcast/support.html)
 
 ---
 
