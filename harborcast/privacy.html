@@ -94,10 +94,10 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="subtitle">HarborCast Marine Weather | Last Updated: February 2026</p>
+        <p class="subtitle">HarborCast Marine Weather | Last Updated: June 2026</p>
 
         <div class="summary">
-            <strong>Summary:</strong> HarborCast does not collect, transmit, or share any of your personal data. All information you enter stays on your device only.
+            <strong>Summary:</strong> HarborCast does not require an account and does not use ads, analytics, or tracking. The app runs on your device using public government weather data. The one exception is optional lightning alerts: if you turn them on, your device's push token and an approximate (city-level) alert location are sent to our alert server solely to notify you of nearby lightning.
         </div>
 
         <h2>1. Information We Collect</h2>
@@ -106,13 +106,13 @@
         <ul>
             <li>Does NOT require account creation or login</li>
             <li>Does NOT collect your name, email, or contact information</li>
-            <li>Does NOT transmit your personal data to any server</li>
+            <li>Does NOT transmit your personal data to any server, except the limited data needed for optional lightning alerts you choose to enable (see Section 5)</li>
             <li>Does NOT use analytics or tracking services</li>
             <li>Does NOT share any data with third parties</li>
         </ul>
 
         <h2>2. Location Data</h2>
-        <p>HarborCast may request access to your device's location to provide weather and tide data for your area. This location data is used only on your device to fetch publicly available NOAA weather data. Your location is never transmitted to our servers or shared with third parties.</p>
+        <p>HarborCast may request access to your device's location to provide weather and tide data for your area. This location is used on your device to fetch publicly available NOAA weather data and is not shared with third parties. If you enable lightning alerts, an approximate (city-level) version of your alert location is sent to our alert server only to deliver those notifications (see Section 5).</p>
         <p>You can deny location access and manually enter your preferred locations instead.</p>
 
         <h2>3. Data Storage</h2>
@@ -125,23 +125,23 @@
         </ul>
 
         <h2>4. Weather Data Sources</h2>
-        <p>HarborCast retrieves publicly available weather, tide, and marine condition data from government sources including NOAA, the National Weather Service, and NDBC buoy stations. These requests are made directly from your device and do not pass through our servers.</p>
+        <p>HarborCast retrieves publicly available weather, tide, lightning, and marine condition data from public sources including NOAA, the National Weather Service, NDBC buoy stations, and NASA satellite imagery. These weather requests are made directly from your device.</p>
 
-        <h2>5. Advertising (FREE Version Only)</h2>
-        <p>The FREE version of HarborCast displays minimal, family-friendly advertising through Google AdMob to support development costs:</p>
+        <h2>5. Lightning Alerts (Optional)</h2>
+        <p>HarborCast Pro can send push notifications when lightning is detected near you, even when the app is closed. This feature is off by default and turns on only if you enable it.</p>
+        <p>When you enable lightning alerts, the app sends the following to our alert server (operated for us by Cloudflare) for the sole purpose of delivering those notifications:</p>
         <ul>
-            <li><strong>Small banner ad</strong> displayed at the bottom of the screen</li>
-            <li><strong>Occasional interstitial ads</strong> shown between certain actions (not overwhelming)</li>
-            <li><strong>AdMob may collect:</strong> Device information, ad interaction data, and general location (city-level) for ad targeting</li>
-            <li><strong>You can opt out:</strong> Upgrade to PRO for a completely ad-free experience</li>
+            <li>Your device's Apple push notification token</li>
+            <li>An approximate, city-level alert location, your chosen alert radius, and any quiet hours you set</li>
         </ul>
-        <p>Google AdMob's privacy practices are governed by Google's Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+        <p>This information is used only to send you lightning alerts. It is not used for advertising or tracking, is not shared with third parties for their own purposes, and is removed when you turn lightning alerts off. Lightning detection is satellite-based and approximate, and is provided for awareness only, not as a substitute for official warnings.</p>
+        <p>HarborCast does not display any advertising.</p>
 
         <h2>6. In-App Purchases</h2>
         <p>HarborCast offers optional PRO features via in-app purchase. These purchases are processed entirely by Apple through the App Store. We do not receive or store any payment information such as credit card numbers.</p>
 
         <h2>7. Third-Party Services</h2>
-        <p>HarborCast does not integrate with any third-party services, analytics platforms, or advertising networks beyond Google AdMob (FREE version only).</p>
+        <p>HarborCast does not use analytics platforms or advertising networks. The only third parties involved are Apple, which processes subscriptions and delivers push notifications, and Cloudflare, which runs the alert server that sends lightning notifications. Neither receives your data for their own marketing purposes.</p>
 
         <h2>8. Children's Privacy</h2>
         <p>HarborCast is a marine weather tool intended for adults. We do not knowingly collect information from children under 13 years of age.</p>
