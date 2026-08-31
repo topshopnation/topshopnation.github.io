@@ -94,6 +94,24 @@
       color: #475569;
       font-size: 0.85rem;
     }
+    .details {
+      text-align: left;
+      margin-top: 50px;
+      padding-top: 10px;
+    }
+    .details h2 {
+      color: #fff;
+      font-size: 1.3rem;
+      margin: 34px 0 12px 0;
+    }
+    .details h2:first-child {
+      margin-top: 0;
+    }
+    .details p {
+      color: #CBD5E1;
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+    }
   </style>
 </head>
 <body>
@@ -125,6 +143,18 @@
       <a href="https://apps.apple.com/app/nestplan-retirement-planner/id6757770121">
         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
       </a>
+    </div>
+
+    <div class="details">
+      <h2>How the projection works</h2>
+      <p>NestPlan starts with your actual accounts: taxable brokerage, 401(k) or 403(b), traditional and Roth IRAs, plus Social Security and any pension income. You enter current balances, expected contributions, and an assumed rate of return, and NestPlan projects the balance of each account forward year by year, factoring in inflation on both your expenses and your income.</p>
+      <p>When you retire, NestPlan draws down accounts in a specific order rather than pulling evenly from everything: taxable accounts first, then tax-deferred accounts, with Roth accounts held back for last since they grow tax-free and aren't subject to Required Minimum Distributions. Once you hit RMD age, NestPlan calculates the mandatory withdrawal from tax-deferred accounts automatically and folds it into your income for that year, so the tax picture stays realistic instead of assuming you can choose to skip it.</p>
+
+      <h2>What Monte Carlo simulation actually shows you</h2>
+      <p>A single retirement projection assumes one fixed rate of return every year, which isn't how markets behave. NestPlan's Monte Carlo mode runs 1,000 separate simulations, each with a different randomized sequence of annual returns drawn from historical market volatility. Some sequences front-load bad years right as you retire (sequence-of-returns risk, one of the biggest threats to a retirement plan), others don't. The result isn't one number, it's a distribution: the percentage of those 1,000 runs where your money lasted through your projected lifespan, so you can see not just an average outcome but how much the plan depends on getting lucky with market timing.</p>
+
+      <h2>The what-if sandbox</h2>
+      <p>Retirement age is rarely a single fixed decision, it's a tradeoff between working longer and having more time. The sandbox in NestPlan lets you build two or three full scenarios side by side, retiring at 60 versus 65 versus 70, or with a different withdrawal rate, and compare the resulting balance curves and success probabilities directly instead of re-running the calculator from scratch for every "what if."</p>
     </div>
 
     <div class="links">

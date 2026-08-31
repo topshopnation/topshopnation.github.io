@@ -108,6 +108,24 @@
             color: #555;
             font-size: 0.85rem;
         }
+        .details {
+            text-align: left;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .details h2 {
+            color: #4da6ff;
+            font-size: 1.2rem;
+            margin: 34px 0 12px 0;
+        }
+        .details h2:first-child {
+            margin-top: 0;
+        }
+        .details p {
+            color: #aaa;
+            font-size: 0.95rem;
+            margin-bottom: 14px;
+        }
         @media (max-width: 600px) {
             h1 {
                 font-size: 2rem;
@@ -150,6 +168,20 @@
             <a href="https://apps.apple.com/us/app/harborcast-radar-lightning/id6760244526">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
             </a>
+        </div>
+
+        <div class="details">
+            <h2>Where the data comes from</h2>
+            <p>HarborCast doesn't run its own weather models. It pulls directly from public sources: NOAA and National Weather Service marine forecasts, NDBC buoy stations for real-time wind and wave observations, and a satellite-based lightning detection network for strike data. That means the numbers on screen are the same underlying data meteorologists use, presented for someone standing on a dock deciding whether to head out, not for someone reading a general forecast.</p>
+
+            <h2>How the rating is built</h2>
+            <p>Generic weather apps don't know what "bad conditions" means for your specific boat or your specific comfort level. HarborCast asks you to set your own thresholds for wind speed, wave height, and visibility, and then scores every hour of the forecast as Good, Poor, or Dangerous against those personal limits. A center-console angler and a sailor crossing open water have very different tolerances, so the rating is built around your numbers, not a one-size-fits-all cutoff.</p>
+
+            <h2>Lightning and storm tracking</h2>
+            <p>The lightning layer plots every satellite-detected strike on a live radar view, color-coded by how recently it occurred, with proximity alerts that fire before you'd normally hear thunder. During hurricane season, HarborCast also overlays the National Hurricane Center's full forecast cone so a storm's projected path is visible directly on the same map as your local conditions.</p>
+
+            <h2>On your wrist</h2>
+            <p>The Apple Watch companion surfaces your current rating, wind speed and direction, and tide state at a glance, along with dedicated Wind Dial and Tide complications for the watch face, so a status check doesn't require pulling out a phone.</p>
         </div>
 
         <div class="legal-links">
