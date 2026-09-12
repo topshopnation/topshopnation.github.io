@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monte Carlo Simulation Explained - NestPlan</title>
+  <meta name="description" content="What a 1,000-run Monte Carlo simulation is actually telling you about a retirement plan, and why two retirees with the same average return can end up in very different places.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6903279016707290" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZTM3R5KBR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QZTM3R5KBR');
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+      background: #0A0F1E;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 20px; }
+    h1 { font-size: 2.1rem; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: #94A3B8; margin-bottom: 40px; font-size: 1.05rem; }
+    h2 { color: #F59E0B; font-size: 1.25rem; margin: 34px 0 12px 0; }
+    p { color: #CBD5E1; margin-bottom: 14px; }
+    .example {
+      background: #111827;
+      border: 0.5px solid #1E293B;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .example p:last-child { margin-bottom: 0; }
+    .links { margin-top: 50px; padding-top: 24px; border-top: 0.5px solid #1E293B; }
+    .links a { color: #94A3B8; text-decoration: none; margin-right: 20px; font-size: 0.9rem; }
+    .links a:hover { color: #0EA5E9; }
+    .footer { margin-top: 30px; color: #475569; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>What Monte Carlo Simulation Actually Tells You</h1>
+    <p class="subtitle">Two retirees can average the same return over 30 years and end up nowhere near the same place</p>
+
+    <p>A basic retirement projection usually assumes one fixed rate of return, say 7% a year, every year, for the whole retirement. It's an easy number to work with, and it's also not how markets behave. Real returns swing, some years are up 20%, some are down 15%, and the order those swings happen in matters far more than most people assume. That order effect is what Monte Carlo simulation is built to show, and a single-number projection can't show it at all.</p>
+
+    <h2>The same average return, two very different outcomes</h2>
+    <div class="example">
+      <p>Picture two people retiring with identical savings, both averaging exactly the same return over 30 years. The first one hits a strong market in the first five years of retirement, then a rough patch later. The second hits the rough patch first, right as they start withdrawing.</p>
+      <p>Even with the same long-run average, the second retiree is usually in real trouble by the end, and the first usually isn't. Withdrawing money from an account while it's down locks in that loss in a way that simply living through a down market while still working never does. This is called sequence-of-returns risk, and it's arguably the single biggest threat to a retirement plan that a plain average-return projection completely hides.</p>
+    </div>
+
+    <h2>Why 1,000 separate runs instead of one</h2>
+    <p>Monte Carlo simulation doesn't try to predict the one path markets will actually take. It runs the plan through 1,000 different randomized sequences of annual returns, each one shaped by historical market volatility, and checks how the retirement plan holds up in each version. Some of those 1,000 versions put the bad years early. Some put them late. Some barely have any bad years at all. The point isn't any single run, it's the spread across all of them.</p>
+
+    <h2>What a "90% success rate" actually means</h2>
+    <p>If NestPlan shows a plan succeeding in 900 of 1,000 runs, that's not a guarantee and it's not a grade. It means that under 900 of the 1,000 historically-grounded return sequences tested, the money lasted through the full plan. The other 100 didn't. A 90% number is a reasonable plan, not a certain one, and the honest way to read it is as a probability, not a promise. Most planners consider anywhere above roughly 80-85% a workable starting point, but that's a judgment call, not a hard line, and it depends on how much flexibility someone has to cut spending if a bad sequence actually happens.</p>
+
+    <h2>What it doesn't do</h2>
+    <p>The simulation is built entirely from historical volatility patterns, so it's only as good as the assumption that the future resembles the past in a statistical sense, not any specific prediction about a specific future crash or boom. It's a tool for understanding how exposed a plan is to bad luck in the order returns arrive, not a forecast of what will happen. Treating a 90% success rate as 90% certainty is the most common way people misread this number.</p>
+
+    <div class="links">
+      <a href="/nestplan/">Back to NestPlan</a>
+      <a href="/nestplan/withdrawal-order/">Withdrawal Order in Retirement</a>
+    </div>
+    <div class="footer">
+      <p>&copy; 2026 CoreForge LLC. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
