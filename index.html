@@ -52,6 +52,13 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 25px;
         }
+        .apps-grid + .apps-grid {
+            margin-top: 25px;
+        }
+        .apps-grid-single {
+            grid-template-columns: minmax(280px, 387px);
+            justify-content: center;
+        }
         .app-card {
             background: rgba(255,255,255,0.05);
             border: 1px solid rgba(255,255,255,0.1);
@@ -146,19 +153,28 @@
                 <p>Retirement Calculator with Monte Carlo Simulation</p>
             </a>
 
-            <a href="/harborcast/" class="app-card">
-                <h2><img src="/images/harborcast-icon.png" alt="HarborCast" class="app-icon"> HarborCast</h2>
-                <p>Marine Weather &amp; Boating Conditions at a Glance</p>
-            </a>
-
             <a href="/sprig/" class="app-card">
                 <h2><img src="/images/sprig-icon.png" alt="Sprig" class="app-icon"> Sprig</h2>
                 <p>All Your Accounts, Balances, and Net Worth in One Place</p>
             </a>
+        </div>
 
+        <div class="apps-grid apps-grid-single">
+            <a href="/harborcast/" class="app-card">
+                <h2><img src="/images/harborcast-icon.png" alt="HarborCast" class="app-icon"> HarborCast</h2>
+                <p>Marine Weather &amp; Boating Conditions at a Glance</p>
+            </a>
+        </div>
+
+        <div class="apps-grid">
             <a href="https://cfb.topshopnation.com" class="app-card">
                 <h2><span class="emoji">🏈</span> College Football Calendars</h2>
                 <p>Live schedules for your calendar app: All FBS, Top 25, any conference, any team</p>
+            </a>
+
+            <a href="https://nfl.topshopnation.com" class="app-card">
+                <h2><span class="emoji">🏈</span> NFL Calendars</h2>
+                <p>Live schedules for your calendar app: All NFL, any conference, any team</p>
             </a>
         </div>
 
