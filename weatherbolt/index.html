@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Bolt (formerly HarborCast) - Radar, Lightning &amp; Forecasts</title>
+    <meta name="description" content="Weather Bolt (formerly HarborCast) - Live radar, lightning strikes and alerts, and hourly and 7-day forecasts. Optional Water tools for tides and marine conditions.">
+    <link rel="canonical" href="https://topshopnation.com/weatherbolt/">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/weatherbolt-icon-32.png">
+    <link rel="apple-touch-icon" href="/images/weatherbolt-icon-180.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Weather Bolt">
+    <meta property="og:title" content="Weather Bolt (formerly HarborCast) - Radar, Lightning &amp; Forecasts">
+    <meta property="og:description" content="Weather Bolt (formerly HarborCast) - Live radar, lightning strikes and alerts, and hourly and 7-day forecasts. Optional Water tools for tides and marine conditions.">
+    <meta property="og:url" content="https://topshopnation.com/weatherbolt/">
+    <meta property="og:image" content="https://topshopnation.com/images/weatherbolt-icon.png">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZTM3R5KBR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QZTM3R5KBR');
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background: linear-gradient(135deg, #0a1628 0%, #0d1f3c 50%, #132744 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        .app-icon {
+            margin-bottom: 15px;
+        }
+        .app-icon img {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        h1 .highlight {
+            color: #4da6ff;
+        }
+        .tagline {
+            color: #999;
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: left;
+        }
+        .feature-card h3 {
+            color: #4da6ff;
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+        }
+        .feature-card .emoji {
+            font-size: 1.3rem;
+            margin-right: 6px;
+        }
+        .feature-card p {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        .download-section {
+            margin-bottom: 40px;
+        }
+        .download-section img {
+            height: 50px;
+        }
+        .download-section .coming-soon {
+            display: block;
+            margin-top: 10px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .legal-links {
+            margin-bottom: 20px;
+        }
+        .legal-links a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+        .legal-links a:hover {
+            color: #999;
+        }
+        footer {
+            color: #555;
+            font-size: 0.85rem;
+        }
+        .details {
+            text-align: left;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .details h2 {
+            color: #4da6ff;
+            font-size: 1.2rem;
+            margin: 34px 0 12px 0;
+        }
+        .details h2:first-child {
+            margin-top: 0;
+        }
+        .details p {
+            color: #aaa;
+            font-size: 0.95rem;
+            margin-bottom: 14px;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .feature-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-icon"><img src="/images/weatherbolt-icon.png" alt="Weather Bolt"></div>
+        <h1><span class="highlight">Weather Bolt</span></h1>
+        <p class="tagline">(formerly HarborCast)<br>Live radar, lightning alerts, and forecasts. Know before you go.</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3><span class="emoji">🌧️</span> Live Radar</h3>
+                <p>See rain and storms moving in on a live radar map</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="emoji">⚡</span> Lightning Alerts</h3>
+                <p>Every satellite-detected strike on the map, color-coded by age, with proximity alerts before you hear thunder</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="emoji">🕐</span> Hourly &amp; 7-Day Forecast</h3>
+                <p>Temperature, wind, and rain hour by hour, and a 7-day outlook</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="emoji">🌀</span> Storm Tracking</h3>
+                <p>Hurricanes and tropical storms plotted live, with the National Hurricane Center's full forecast cone</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="emoji">🌊</span> Water Tools (Optional)</h3>
+                <p>Turn on tides and marine conditions in Settings if you boat, kayak, or spend time on the water</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="emoji">⌚</span> Apple Watch</h3>
+                <p>Current conditions at a wrist-glance, plus live complications</p>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <a href="https://apps.apple.com/us/app/harborcast-radar-lightning/id6760244526">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+            </a>
+        </div>
+
+        <div class="details">
+            <h2>Where the data comes from</h2>
+            <p>Weather Bolt doesn't run its own weather models. It pulls directly from public sources: NOAA and National Weather Service forecasts, NDBC buoy stations for real-time wind and wave observations, and a satellite-based lightning detection network for strike data. That means the numbers on screen are the same underlying data meteorologists use. <a href="/weatherbolt/reading-forecasts/" style="color:#4da6ff;">A guide to reading marine forecast numbers &rarr;</a></p>
+
+            <h2>Lightning and storm tracking</h2>
+            <p>The lightning layer plots every satellite-detected strike on a live radar view, color-coded by how recently it occurred, with proximity alerts that fire before you'd normally hear thunder. During hurricane season, Weather Bolt also overlays the National Hurricane Center's full forecast cone so a storm's projected path is visible on the same map as your local conditions. <a href="/weatherbolt/lightning-safety/" style="color:#4da6ff;">What to do if a storm catches you out &rarr;</a></p>
+
+            <h2>Forecasts</h2>
+            <p>Check the next few hours or the week ahead. You get an hourly forecast and a 7-day outlook for the places you save.</p>
+
+            <h2>Water tools, if you want them</h2>
+            <p>Turn on Water tools in Settings to add tide predictions and marine conditions. You can also set your own wind, wave, and visibility limits, and each hour of the forecast is rated Good, Poor, or Dangerous against them. These tools are for boaters, kayakers, and anyone on the water. They stay off unless you turn them on.</p>
+
+            <h2>On your wrist</h2>
+            <p>The Apple Watch companion shows current conditions at a glance, along with complications for the watch face, so a status check doesn't require pulling out a phone.</p>
+        </div>
+
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="support.html">Support</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 CoreForge LLC. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

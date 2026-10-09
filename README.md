@@ -11,10 +11,10 @@ Professional retirement planning tool with Monte Carlo simulation and tax optimi
 
 **Live Site:** https://topshopnation.com/nestplan/
 
-### HarborCast
-Marine weather and boating conditions at a glance. Wind, tides, safety ratings, and privacy-first design.
+### Weather Bolt (formerly HarborCast)
+Live radar, lightning alerts, and hourly and 7-day forecasts, with optional Water tools for tides and marine conditions.
 
-**Live Site:** https://topshopnation.com/harborcast/
+**Live Site:** https://topshopnation.com/weatherbolt/
 
 ## Privacy
 
@@ -24,7 +24,7 @@ All apps are built with privacy as a priority. Your data stays on your device. S
 
 Need help? Visit our support pages:
 - [NestPlan Support](https://topshopnation.com/nestplan/support.html)
-- [HarborCast Support](https://topshopnation.com/harborcast/support.html)
+- [Weather Bolt Support](https://topshopnation.com/weatherbolt/support.html)
 
 ---
 
